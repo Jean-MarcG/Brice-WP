@@ -169,12 +169,5 @@
   </div>
 </section>
 
-<section class="form Section" id="form">
-  <div class="form__container">
-    <?php echo do_shortcode( '[wpforms id="17"]' ); ?>
-  </div>
-</section>
-
-
 
 <?php get_footer() ?>

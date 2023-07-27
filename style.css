@@ -631,7 +631,7 @@ button {
   align-items: center;
   column-gap: 0.5rem;
   background-color: #dda15e;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1.5rem 0.8rem;
   border-radius: 4rem;
   color: #FFFFFF;
   font-weight: 500;
@@ -646,6 +646,21 @@ button {
 }
 .button:hover i {
   transform: translateX(0.25rem);
+}
+
+.form {
+  padding-block: 4rem 1rem;
+}
+.form__subtitle {
+  font-family: "Cardo";
+  font-size: 2.5rem;
+}
+.form__description {
+  padding: 1rem;
+  width: 60%;
+  margin: auto;
+  max-width: 800px;
+  text-align: center;
 }
 
 /*=============== SCROLL BAR ===============*/
@@ -706,6 +721,7 @@ button {
   align-items: center;
   margin: auto;
   padding-top: 1rem;
+  padding-bottom: 1rem;
   /*   @include breakpoint-down(large) {
       &__menu {
         position: fixed;
@@ -724,6 +740,7 @@ button {
   color: #000000;
 }
 .nav__logo {
+  flex-grow: 1;
   align-items: center;
   column-gap: 0.5rem;
   font-family: "Cardo";
@@ -734,8 +751,13 @@ button {
   color: #545454;
 }
 .nav__logo img {
-  width: 50px;
+  width: 60px;
   border-radius: 50px;
+}
+.nav__social {
+  min-width: 45px;
+  text-align: end;
+  margin-right: 1rem;
 }
 .nav__toggle {
   font-size: 1.25rem;

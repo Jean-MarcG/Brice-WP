@@ -12,6 +12,20 @@
 */
 
 ?>
+
+<section class="form Section" id="form">
+  <div class="form__data">
+    <span class="section__subtitle form__subtitle">Nous contacter</span>
+    <p class="form__description">
+      Nous sommes à votre service pour toute question éventuelle. N’hésitez pas à nous soumettre votre demande de devis concernant une commande ou une création personnalisée, nous vous répondrons dans les plus brefs délais.
+    </p>
+
+    <div class="form__container">
+      <?php echo do_shortcode( '[wpforms id="17"]' ); ?>
+    </div>
+  </div>
+</section>
+
 </main>
 
 <footer class="footer">

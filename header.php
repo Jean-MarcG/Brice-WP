@@ -60,6 +60,17 @@
         </div>
       </div>
 
+      <ul class="nav__social">
+        <li>
+          <a href="#" target="_blank" class="footer__social-link">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a href="#" target="_blank" class="footer__social-link">
+            <i class="ri-instagram-fill"></i>
+          </a>
+        </li>
+      </ul>
+
       <div class="nav__toggle" id="nav-toggle">
         <i class="ri-menu-line"></i>
       </div>
