@@ -25,7 +25,7 @@
 
   <header class="header" id="header">
     <nav class="nav container">
-      <a href="#home" class="nav__logo">
+      <a href="/#home" class="nav__logo">
         <img src="/wp-content/uploads/logo-brice.jpg" alt="logo image">
         croquembouche-wedding-cake-israel
       </a>
@@ -33,25 +33,25 @@
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list">
           <li class="nav__item">
-            <a href="#home" class="nav__link active-link">Accueil</a>
+            <a href="/#home" class="nav__link active-link">Accueil</a>
           </li>
           <li class="nav__item">
-            <a href="#coneShaped" class="nav__link">Pièces montées</a>
+            <a href="/#coneShaped" class="nav__link">Pièces montées</a>
           </li>
           <li class="nav__item">
-            <a href="#croquembouche" class="nav__link">Croquembouche</a>
+            <a href="/#croquembouche" class="nav__link">Croquembouche</a>
           </li>
           <li class="nav__item">
-            <a href="#customized" class="nav__link">Gâteau personnalisé</a>
+            <a href="/#customized" class="nav__link">Gâteau personnalisé</a>
           </li>
           <li class="nav__item">
-            <a href="#numberCake" class="nav__link">Number cake</a>
+            <a href="/#numberCake" class="nav__link">Number cake</a>
           </li>
           <li class="nav__item">
-            <a href="#israel" class="nav__link">Croquembouche et cake Israël</a>
+            <a href="/#israel" class="nav__link">Croquembouche et cake Israël</a>
           </li>
           <li class="nav__item">
-            <a href="#about" class="nav__link">Qui sommes-nous ?</a>
+            <a href="/#about" class="nav__link">Qui sommes-nous ?</a>
           </li>
         </ul>
 

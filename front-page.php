@@ -17,7 +17,7 @@
         <br> Réservez dès maintenant !
       </p>
 
-      <a href="#" class="button">
+      <a href="/gateau-de-mariage-et-wedding-cake/" class="button">
         Découvrir <i class="ri-arrow-right-line"></i>
       </a>
     </div>
@@ -38,7 +38,7 @@
         <br>
         Commande minimum 30 personnes et supplément pour décor personnalisé.
       </p>
-      <a href="#" class="button">
+      <a href="/pieces-montees-en-cone-sans-nougatine/" class="button">
         Découvrir <i class="ri-arrow-right-line"></i>
       </a>
     </div>
@@ -60,7 +60,7 @@
         <br>Supplément pour décor personnalisé.
       </p>
 
-      <a href="#" class="button">
+      <a href="/croquembouche-nougatine/" class="button">
         Découvrir <i class="ri-arrow-right-line"></i>
       </a>
     </div>
