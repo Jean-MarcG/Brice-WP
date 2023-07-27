@@ -1,0 +1,127 @@
+<?php get_header() ?>
+
+<section class="hero">
+  <div class="wrapper">
+
+    <div class="hero__text">
+      <h1>Gateau de mariage et wedding cake</h1>
+      <p>
+        Découvrez les délices uniques de Brice pour votre mariage !
+        <br> Notre passion pour les wedding cakes vous garantit un gâteau exceptionnel et sur mesure.
+        <br> Choisissez parmi nos saveurs exquises pour rendre votre grand jour inoubliable.
+        <br>Faites confiance à notre savoir-faire pour créer le gâteau de mariage parfait qui ravira vos invités.
+        <br> Réservez dès maintenant !
+      </p>
+      <div class="hero__cta">
+        <a href="#" class="simple-cta">Contactez-nous</a>
+      </div>
+    </div>
+    <div class="hero__image">
+      <img src="/wp-content/uploads/Hero-wedding-cake-brice-min.jpg" alt="">
+    </div>
+
+  </div>
+</section>
+
+<section class="nougatine">
+  <div class="wrapper">
+    <div class="section__text section__text--left">
+      <h2>Pièces montées en cône sans nougatine </h2>
+      <p>
+        Possibilité de choux ou macarons, <strong>10 shekels/unité</strong>. Choux garnis d’une véritables crème onctueuse avec choix de différents gouts.
+        <br>
+        Commande minimum 30 personnes et supplément pour décor personnalisé.
+      </p>
+      <div class="hero__cta">
+        <a href="#" class="simple-cta">Contactez-nous</a>
+      </div>
+    </div>
+    <div class="section__image">
+      <img src="/wp-content/uploads/nougatine-brice-min.jpg" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="croquembouche">
+  <div class="wrapper">
+    <div class="section__text section__text--left">
+      <h2>Croquembouche nougatine</h2>
+      <p>
+        Possibilité de mélanger choux et macarons, <strong>20 shekels l’unité</strong> par personne.
+        <br>Supplément pour décor personnalisé.
+      </p>
+      <div class="hero__cta">
+        <a href="#" class="simple-cta">Contactez-nous</a>
+      </div>
+    </div>
+    <div class="section__image">
+      <img src="/wp-content/uploads/croquembouche-brice-min.jpg" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="customized">
+  <div class="wrapper">
+    <div class="section__text section__text--left">
+      <h2>Gâteau personnalisé</h2>
+      <p>
+        Laissez libre votre imagination, choisissez votre thème et nous serons ravis de le réaliser.
+        <br>
+        <strong>25 shekels la part</strong>, commande minimum 15 personnes.
+        <br>
+        Gâteau monté avec génoise moelleuse nature ou chocolat agrémenté de différents goûts de crèmes onctueuses et de coulis fruités.
+      </p>
+      <div class="hero__cta">
+        <a href="#" class="simple-cta">Contactez-nous</a>
+      </div>
+    </div>
+    <div class="section__image">
+      <img src="/wp-content/uploads/gateau-personnalise-brice-min.jpg" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="number">
+  <div class="wrapper">
+    <div class="section__text section__text--left">
+      <h2>Number Cake</h2>
+      <p>
+        Quel est votre chiffre préféré!?
+        <br>
+        Pâte sucrée nature ou chocolat surmontée d’une crème onctueuse : vaille, chocolat, citron, etc... à votre choix.
+        <br>
+        Décor personnalisé sur-mesure à partir de <strong>20 shekels la part</strong>, commande de 15 personnes minimum.
+      </p>
+      <div class="hero__cta">
+        <a href="#" class="simple-cta">Contactez-nous</a>
+      </div>
+    </div>
+    <div class="section__image">
+      <img src="/wp-content/uploads/number-cake-brice-min.jpg" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="israel">
+  <div class="wrapper">
+    <div class="section__text section__text--left">
+      <h2>Croquembouche et cake Israël</h2>
+      <p>
+        Bienvenue chez Brice Pâtisserie, votre adresse gourmande en Israël pour des délices sucrés qui émerveilleront les mariages !
+        <br> Plongez dans l'univers envoûtant de nos Wedding Cake,Pièces montées en cône sans nougatine, Croquembouches, et offrez à vos invités une expérience gustative exceptionnelle.
+
+        Chez Brice, nous mettons un point d'honneur à allier les saveurs traditionnelles d'Israël à notre savoir-faire français en pâtisserie. Nos Croquembouches, véritables œuvres d'art, évoquent les paysages et les cultures de cette terre sacrée. Quant à nos Cakes, ils célèbrent l'héritage culinaire d'Israël dans chaque bouchée.
+
+        Chaque création est confectionnée avec passion et des ingrédients locaux soigneusement sélectionnés. Faites de votre mariage un moment inoubliable en choisissant Brice Pâtisserie pour sublimer vos festivités avec nos délicieuses créations sucrées. Venez nous rendre visite et découvrez la magie de nos desserts qui enchanteront vos convives !
+      </p>
+      <div class="hero__cta">
+        <a href="#" class="simple-cta">Contactez-nous</a>
+      </div>
+    </div>
+    <div class="section__image">
+      <img src="/wp-content/uploads/number-cake-brice-min.jpg" alt="">
+    </div>
+  </div>
+</section>
+
+<?php get_footer() ?>

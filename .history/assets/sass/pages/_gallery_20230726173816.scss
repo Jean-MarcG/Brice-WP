@@ -1,0 +1,12 @@
+.grid {
+
+  &__gallery {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+
+    display: grid;
+    
+  }
+}

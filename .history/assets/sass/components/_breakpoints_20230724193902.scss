@@ -1,0 +1,9 @@
+/* Mobiles */
+@include breakpoint-down(small) {
+  .container { margin-inline: 1rem; }
+  .section { padding-block: 4rem 1rem;}
+
+  .home {
+    &__title { font-size: 2rem; }
+  }
+}

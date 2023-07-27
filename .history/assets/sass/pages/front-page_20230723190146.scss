@@ -1,0 +1,14 @@
+/* dev */
+#wpadminbar { display: none; }
+
+.home {
+  position: relative;
+
+  &__container {
+    row-gap: 3rem;
+    padding-top: 2rem;
+  }
+  &__img { width: 300px; justify-self: center; }
+  &__data { text-align: center; }
+  &__title { font-size: ;}
+}

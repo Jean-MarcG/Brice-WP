@@ -1,0 +1,22 @@
+@import "config/variables";
+@import "config/colors";
+@import "config/fonts";
+@import "config/mixins";
+@import "config/normalize";
+@import "config/base";
+
+@import "theme/layout";
+
+@import "pages/front-page.scss";
+@import "pages/gallery";
+
+
+@import "components/buttons";
+@import "components/scroll";
+@import "components/header";
+@import "components/footer";
+@import "components/links";
+@import "components/breakpoints";
+
+
+

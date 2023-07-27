@@ -1,0 +1,128 @@
+
+.footer {
+  
+  
+  &__before {
+
+    display: flex;
+    flex-direction: column;
+    padding: 10% 5% 5%;
+    
+    @include breakpoint-down(small) {
+      padding: 20% 5% 5%;
+    }
+    
+    @include breakpoint-up(large) {
+      flex-direction: row;
+    }
+    
+    &-left {
+      display: flex;
+      flex-direction: column;
+      
+      @include breakpoint-up(large) { 
+        width: 70%; 
+        
+        p { padding-right: 20%; }
+      }
+      
+      span { font-size: $font-med; font-weight: $bold; }
+      
+    }
+    &-contact {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      padding: 5% 0;
+      
+      span { display: block; }
+      
+    }
+  }
+  
+  &__after {
+    padding: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    @include breakpoint-up(tablet) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    
+    a {
+      color: $white;
+    }
+    
+    &__logo {
+      display: inline-block;
+      @include breakpoint-down(medium) {
+        margin-bottom: 1.875rem;
+      }
+    }
+    
+  }
+  
+  &__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9375rem;
+    
+    @include breakpoint-up(large) {
+      justify-content: space-between;
+      align-items: start;
+    }
+    
+    a {
+      line-height: 2.25;
+      transition: color 150ms ease-in-out;
+      
+      &:hover {
+        color: $green;
+      }
+    }
+  }
+  
+  &__social {
+    display: flex;
+    justify-content: center;
+    
+    @include breakpoint-down(tablet) {
+      margin-bottom: 1.875rem;
+      justify-content: end;
+    }
+    
+    a {
+      display: inline-block;
+      height: 2.25rem;
+      
+      svg path {
+        transition: fill 150ms ease-in-out;
+      }
+      
+      &:hover svg path {
+        fill: $green;
+      }
+    }
+    
+    a:not(:last-child) {
+      margin-right: 1rem;
+    }
+  }
+  
+  &__adress {
+    span { display: block; text-align: center;}
+    
+    @include breakpoint-down(tablet) {
+      text-align: end;
+    }
+  }
+  
+  &__copyright {
+    color: $white;
+    text-align: center;
+    padding: 2rem 0 3rem;
+  }
+}

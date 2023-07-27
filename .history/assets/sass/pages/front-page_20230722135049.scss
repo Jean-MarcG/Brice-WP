@@ -1,0 +1,25 @@
+/* dev */
+#wpadminbar { display: none; }
+
+// Hero
+.hero {
+  margin-top: 6rem;
+
+  &__text {
+    padding-bottom: 35px;
+  }
+
+}
+
+.section {
+  &__text {
+    padding-bottom: 35px;
+  }
+
+  &__image {
+    text-align: center;
+    margin: auto;
+    
+     img { max-width: 100% };
+  }
+}

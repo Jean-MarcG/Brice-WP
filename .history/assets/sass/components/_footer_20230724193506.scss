@@ -1,0 +1,62 @@
+.footer {
+  position: relative;
+  padding-block: 3rem 2rem;
+  overflow: hidden;
+
+  &__container { row-gap: 3rem; }
+  &__logo {
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+    color: $black;
+    font-size: $font-sm;
+    font-weight: $medium;
+    margin-bottom: 1rem;
+    transition: color .3s;
+      & img { width: 50px; }
+      &:hover { color: $lightBlack; }
+  }
+  &__description,
+  &__link,
+  &__information {
+    font-size: $font-s;
+    color: $black;
+  }
+  &__content,
+  &__links { display: grid; }
+  &__content {
+    grid-template-columns: auto;
+    gap: 2.5rem;
+  }
+  &__title {
+    font-size: $font-sm;
+    margin-bottom: 1.5rem;
+  }
+  &__links { row-gap: .5rem; }
+  &__link {
+    color: $lightBlack;
+    transition: color .3s;
+      &:hover { color: $black; }
+  }
+  &__socila {
+    display: flex;
+    column-gap: 1.25rem;
+  }
+  &__social-link {
+    color: $black;
+    font-size: $font-sm;
+    transition: color .3s, transform .3s;
+    &:hover { color: lightcoral; transform: translateY(-2px);}
+  }
+  &__info { 
+    display: flex;
+    margin-top: 6.5rem;
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
+  &__copy {
+    text-align: center;
+    font-size: $font-s;
+    color: $lightBlack;
+  }
+}

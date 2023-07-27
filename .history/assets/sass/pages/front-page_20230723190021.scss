@@ -1,0 +1,13 @@
+/* dev */
+#wpadminbar { display: none; }
+
+.home {
+  position: relative;
+
+  &__container {
+    row-gap: 3rem;
+    padding-top: 2rem;
+
+    
+  }
+}

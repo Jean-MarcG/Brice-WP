@@ -1,0 +1,122 @@
+/* dev */
+#wpadminbar { display: none; }
+
+.home {
+  position: relative;
+
+  &__container {
+    row-gap: 3rem;
+    padding-top: 2rem;
+  }
+  &__img { width: 300px; justify-self: center; }
+  &__data { text-align: center; }
+  &__title { 
+    font-size: $font-med;
+    font-family: $font-title;
+    margin-bottom: 1rem;
+
+    & div {
+      display: flex;
+      align-items: center;
+      justify-content: center;column-gap: .5rem;
+    }
+  }
+  &__description {
+    padding: 0 1rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+.coneShaped { 
+  position: relative;
+  &__container { row-gap: 3rem; }
+  &__data { text-align: center; }
+  &__title { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+  }
+  &__description {
+    padding: 0 1rem;
+    margin-bottom: 2.5rem;
+  }
+  &__img { width: 300px; justify-self: center; }
+}
+
+.croquembouche {
+  position: relative;
+  &__container { row-gap: 3rem; }
+  &__data { text-align: center; }
+  &__title { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+  }
+  &__description {
+    padding: 0 1rem;
+    margin-bottom: 2.5rem;
+  }
+  &__img { width: 300px; justify-self: center; }
+}
+
+.customized {
+  position: relative;
+  &__container {
+    row-gap: 4rem;
+  }
+  &__data { position: relative; text-align: center; }
+  &__description { margin-bottom: 2rem; }
+  &__img { width: 300px; justify-self: center; }
+}
+
+.numberCake {
+  &__container { position: relative; }
+  &__content {
+    position: relative;
+    background-color: hsl(19, 24%, 15%);
+    border-radius: 2.5rem;
+    padding: 5rem 1rem 3rem;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 2rem;
+  }
+  &__img {
+    width: 250px;
+    position: absolute;
+    top: -4.5rem;
+    left: -8rem;
+  }
+  &__data .section__subtitle { color: $offWhite;margin-bottom: 2rem; }
+  &__data .section__title { color: $white;margin-bottom: 2rem; }
+  &__description { margin-bottom: 2rem; color: $white; }
+}
+
+.israel {
+    position: relative;
+    &__container {
+      row-gap: 4rem;
+    }
+    &__data { 
+      position: 
+      relative; 
+      text-align: center;
+     & .section__subtitle {
+      color: #EEE8AA;
+      rotate: -4deg;
+     }
+    }
+    &__description { margin-bottom: 2rem; }
+    &__img { width: 300px; justify-self: center; }
+}
+
+.about {
+  position: relative;
+  &__container {
+    row-gap: 4rem;
+  }
+  &__data { position: relative; text-align: center; }
+  &__description { margin-bottom: 2rem; }
+  &__img { width: 300px; justify-self: center; }
+}

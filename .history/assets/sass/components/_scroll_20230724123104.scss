@@ -1,0 +1,45 @@
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar{
+  width: .6rem;
+  border-radius: .5rem;
+  background-color: hsl(19, 8%, 75%);
+
+  &-thumb {
+    border-radius: .5rem;
+    background-color: hsl(19, 8%, 65%);
+
+    &:hover {
+      background-color: hsl(19, 8%, 55%);
+    }
+  }
+}
+/*=============== SCROLL UP ===============*/
+.scrollup{
+  position: fixed;
+  right: 1rem;
+  bottom: 3rem;
+  background-color: $offWhite;
+  box-shadow: 0 4px 12px hsla(19, 64%, 24%, .1);
+  display: inline-flex;
+  padding: .35rem;
+  border-radius: .25rem;
+  font-size: 1.1rem;
+  color: $black;
+  z-index: 100;
+  opacity: .8;
+  transition: .4s;
+
+  &:hover{
+      opacity: 1;
+  }
+
+  &__icon{
+      font-size: 1.5rem;
+      color: var(--first-color);
+  }
+}
+
+/* Show Scroll Up*/
+.show-scroll{
+  bottom: 3rem;
+}

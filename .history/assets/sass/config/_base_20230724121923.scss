@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: $lightWhite;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 300;
+  color: $lightBlack;
+}
+
+h1, h2, h3 {
+  font-family: 'Cardo', serif;
+  font-weight: 400;
+  font-size: 45px;
+  color: $black;
+}
+ul{ list-style: none; }
+a{ text-decoration: none; }
+img{
+  max-width: 100%;
+  height: auto;
+}
+button{
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar

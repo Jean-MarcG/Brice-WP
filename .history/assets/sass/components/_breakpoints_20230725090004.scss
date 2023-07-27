@@ -1,0 +1,35 @@
+/* Small devices */
+@include breakpoint-down(small) {
+  .container { margin-inline: 1rem; }
+  .section { padding-block: 4rem 1rem;}
+  
+  .home__title { font-size: 2rem; }
+  .footer__content { gap: 1.5rem; }
+}
+
+/* Medium devices */
+@include breakpoint-up(medium) {
+  .home__container,
+  .coneShaped__container,
+  .croquembouche__container,
+  .customized__container,
+  .israel__container,
+  .about__container {
+    grid-template-columns: .7fr;
+    justify-content: center;
+  }
+
+  .footer__content {
+    grid-template-columns: repeat(2, max-content);
+  }
+}
+
+@include breakpoint-up(tablet) {
+  .nav { 
+    column-gap: 3rem; 
+  &__toggle,
+    
+}
+
+}
+

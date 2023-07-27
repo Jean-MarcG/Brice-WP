@@ -1,0 +1,12 @@
+.footer {
+  position: relative;
+  padding-block: 3rem 2rem;
+  overflow: hidden;
+
+  &__container { row-gap: 3rem; }
+  &__logo {
+    display: inline-flex;
+    align-items: center;
+    column-gap: .(rem);
+  }
+}

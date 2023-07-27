@@ -1,0 +1,52 @@
+/* dev */
+#wpadminbar { display: none; }
+
+// Global layouts
+// Hero
+.hero {
+  height: 90vh;
+  position: relative;
+  background-image: url("/wp-content/uploads/Groupe-de-masques-50.png");
+  background-position: right center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+  .container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    
+    @include breakpoint-up(large) {
+      grid-template-columns: 50% 50%;
+    }
+  }
+  
+  &__text {
+    text-align: center;
+    @include breakpoint-up(large){ text-align: left; }
+    
+    p.font-secondary { font-size: $font-med; }  
+    #changeWord { color: $green;}
+  }
+  
+  .white__cta { 
+    margin-top: 1rem;
+    
+    @include breakpoint-up(medium) { margin-left: 3rem;} }
+    
+    &__logo {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: auto;
+      display: flex;
+      
+      & img { 
+        display: none;
+        @include breakpoint-up(large) { display: block; width: 70%; }
+      }
+    }
+  }

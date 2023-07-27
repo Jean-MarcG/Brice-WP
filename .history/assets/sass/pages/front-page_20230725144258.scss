@@ -1,0 +1,100 @@
+/* dev */
+#wpadminbar { display: none; }
+
+.home {
+  position: relative;
+  
+  &__container {
+    row-gap: 3rem;
+    padding-top: 2rem;
+  }
+  &__img { width: 300px; justify-self: center; }
+  &__data { 
+    text-align: center;
+    & .section__subtitle { color: #DAA520; rotate: -4deg; }
+  }
+  &__title { 
+    font-size: $font-med;
+    font-family: $font-title;
+    margin-bottom: 1rem;
+    
+    & div {
+      display: flex;
+      align-items: center;
+      justify-content: center;column-gap: .5rem;
+    }
+  }
+  &__description {
+    padding: 0 1rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+.coneShaped,
+.croquembouche,
+.customized,
+.israel,
+.about { 
+  position: relative;
+  &__container { row-gap: 4rem; }
+  &__data { 
+    text-align: center;
+    & .section__subtitle { color: #DAA520; rotate: -4deg; }
+  }
+  &__title { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+  }
+  &__description { padding: 0 1rem; margin-bottom: 2.5rem;  }
+  &__img { width: 300px; justify-self: center; }
+}
+
+.numberCake {
+  &__container { position: relative; }
+  &__data { 
+    text-align: center;
+    & .section__subtitle { color: #DAA520; rotate: -4deg; }
+  }
+  &__content {
+    position: relative;
+    background-color: hsl(19, 24%, 15%);
+    border-radius: 2.5rem;
+    padding: 5rem 1rem 3rem;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 2rem;
+  }
+  &__img { width: 300px; justify-self: center; rotate: 10deg; }
+  &__data .section__subtitle { margin-bottom: 2rem; }
+  &__data .section__title { color: $white; margin-bottom: 2rem; }
+  &__description { margin-bottom: 2rem; color: $white; }
+}
+
+.form {
+  &__container {
+    padding-inline: 5%;
+    max-width: 80%;
+    margin: auto;
+    background: bisque;
+    padding: 2rem;
+    border-radius: 28px;
+  }
+  & div.wpforms-container-full {
+    margin: auto;
+  }
+  & .wpforms-container .wpforms-one-third.wpforms-first {
+    width: 100%;
+  }
+  & div.wpforms-container-full input[type=text] {
+    border-radius: ;
+  }
+  & div.wpforms-container-full button[type=submit]:not(:hover):not(:active) {
+    background-color: $brown-100;
+    padding: 1rem 1.5rem;
+    border-radius: 4rem;
+    color: $white;
+    font-weight: $medium;
+  }
+}

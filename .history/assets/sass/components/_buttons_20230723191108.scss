@@ -1,0 +1,45 @@
+// Buttons
+.simple-cta {
+	display: inline-flex;
+	align-items: center;
+	column-gap: .5rem;
+	background-color: $brown-100;
+	padding: 1rem 1.5rem;
+	border-radius: 4rem;
+	color: $white;
+	font-weight: ;
+
+	&:after,&:before {
+		content: "";
+		pointer-events: none;
+		position: absolute;
+		top: 50%;
+		right: 0;
+		width: 1.875rem;
+		height: .0625rem;
+		transition: transform .6s cubic-bezier(.165,.84,.44,1)
+	}
+	&:before {
+		opacity: .2
+}
+&:after {
+	transform: scaleX(0) translateZ(0);
+	transform-origin: right
+}
+&:hover {
+	position: relative;
+	display: inline-block;
+	padding: 0 2.8125rem 0 0;
+	font-weight: 600;
+	cursor: pointer;
+	-webkit-text-decoration: none;
+	text-decoration: none;
+	background: transparent;
+	border: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	color: $brown-100
+}
+
+}

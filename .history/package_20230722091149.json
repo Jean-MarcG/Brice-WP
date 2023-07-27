@@ -1,0 +1,23 @@
+{
+  "name": "brice-wp",
+  "version": "1.0.0",
+  "description": "Brice weddin-cake custom theme for WordPress",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i /input.css -o /style.css",
+    "watch": "tailwindcss -i /input.css -o /style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jean-MarcG/Brice-WP.git"
+  },
+  "author": "Jean-Marc 2212 <jim2212.dev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jean-MarcG/Brice-WP/issues"
+  },
+  "homepage": "https://github.com/Jean-MarcG/Brice-WP#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "brice-wp",
+  "version": "1.0.0",
+  "description": "Brice weddin-cake custom theme for WordPress",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run sass:watch",
+    "build": "npm run css:build & npm run js:build",
+    "sass:watch": "sass --watch assets/sass/style.scss:style.css",
+    "css:build": "sass --style=compressed assets/sass/style.scss:style.min.css",
+    "postcss": "postcss style.css > style.min.css",
+    "babel": "babel --presets=@babel/preset-env assets/js/navigation.js -o assets/js/navigation.min.js",
+    "terser": "terser assets/js/navigation.min.js -o assets/js/navigation.min.js",
+    "js:build": "npm run babel && npm run terser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jean-MarcG/Brice-WP.git"
+  },
+  "author": "Jean-Marc 2212 <jim2212.dev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jean-MarcG/Brice-WP/issues"
+  },
+  "homepage": "https://github.com/Jean-MarcG/Brice-WP#readme",
+  "dependencies": {
+    "sass": "^1.64.1",
+    "scrollreveal": "^4.0.9"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.27",
+    "postcss-cli": "^10.1.0",
+    "terser": "^5.19.2"
+  }
+}

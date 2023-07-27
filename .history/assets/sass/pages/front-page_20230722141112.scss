@@ -1,0 +1,32 @@
+/* dev */
+#wpadminbar { display: none; }
+
+// Hero
+.hero {
+  margin-top: 6rem;
+
+  @include breakpoint-up(large) {
+    padding: 6% 4% 0% 4%;
+  }
+}
+
+.section {
+  
+  &__text {
+    padding-bottom: 35px;
+  }
+  &__image {
+    text-align: center;
+    margin: auto;
+    
+    img { max-width: fit-content };
+  }
+}
+
+.nougatine {
+
+  @include breakpoint-up(large) {
+    .section__text { order: 2;}
+    .section__image { order: 1;}
+  }
+}

@@ -1,0 +1,22 @@
+// Buttons
+.button {
+	display: inline-flex;
+	align-items: center;
+	column-gap: .5rem;
+	background-color: $brown-100;
+	padding: 1rem 1.5rem;
+	border-radius: 4rem;
+	color: $white;
+	font-weight: $medium;
+	transition: background .3s;
+
+		& i {
+			font-size: 1.5rem; transition: transform .3s;
+		}
+		&:hover {
+			background-color: $brown-500;
+			& i { transform: translateX(.25rem);}
+		}
+
+
+}

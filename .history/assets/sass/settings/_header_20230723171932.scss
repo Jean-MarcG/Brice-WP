@@ -1,0 +1,47 @@
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: $offWhiteLight;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  transition: box-shadow .3s, background .4s;
+}
+
+.nav {
+  position: relative;
+  height: $headerHeight;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo,
+  &__toggle,
+  &__close {
+    display: flex;
+    color: $black;
+  }
+
+  &__logo img { width: 25px; }
+  &__toggle { font-size: 1.25rem; cursor: pointer; }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 2rem;
+  }
+
+
+  @include breakpoint-up(tablet) {
+    &__menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: $lightWhite;
+      width: 100%;
+      box-shadow: 0 8px 20px hsla(19, 64%, 24%, .1);
+      padding-block: 3.5rem;
+      transition: top .4s;
+    }
+  }
+}

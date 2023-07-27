@@ -1,0 +1,5 @@
+/* Mobiles */
+@include breakpoint-down(small) {
+  .container { margin-inline: 1rem; }
+  .section { padding-block: ;}
+}

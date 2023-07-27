@@ -1,0 +1,36 @@
+/* dev */
+#wpadminbar { display: none; }
+
+.home {
+  position: relative;
+
+  &__container {
+    row-gap: 3rem;
+    padding-top: 2rem;
+  }
+  &__img { width: 300px; justify-self: center; }
+  &__data { text-align: center; }
+  &__title { 
+    font-size: $font-med;
+    font-family: $font-title;
+    margin-bottom: 1rem;
+
+    & div {
+      display: flex;
+      align-items: center;
+      justify-content: center;column-gap: .5rem;
+    }
+  }
+  &__description {
+    padding: 0 1rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+.nougatine { 
+  position: relative;
+
+  &__container {
+    
+  }
+}

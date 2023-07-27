@@ -1,0 +1,49 @@
+/* dev */
+#wpadminbar { display: none; }
+
+// Hero
+.hero {
+  margin-top: 6rem;
+  
+  @include breakpoint-up(large) {
+    padding: 6% 4% 0% 4%;
+  }
+  
+  @include breakpoint-up(tablet) {
+    & .section__text {
+      width: 56.731%;
+    }
+  }
+  
+  & .section__image {
+    position: relative;
+    background: url("/wp-content/uploads/Hero-wedding-cake-brice-min.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    @include breakpoint-up(tablet) {
+      width: 43.278%; 
+    }
+  }
+}
+
+.section {
+  
+  &__text {
+    padding-bottom: 35px;
+  }
+  &__image {
+    margin: auto;
+    
+    img { max-width: fit-content };
+  }
+}
+
+.nougatine {
+  
+  @include breakpoint-up(large) {
+    .section__text { order: 2;}
+    .section__image { order: 1;}
+  }
+}

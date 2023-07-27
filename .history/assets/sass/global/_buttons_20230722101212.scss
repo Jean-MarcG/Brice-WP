@@ -1,0 +1,52 @@
+// Buttons
+.cta {
+  position: relative;
+  display: inline-block;
+	padding: 12px 25px 12px 29px;
+	border-radius: 100px;
+	text-decoration: none;
+  background: $linearGradient;
+  color: $white;
+  font-size: $font-sm;
+  font-weight: 700;
+  box-shadow: 4px 4px 25px #00000029;
+  cursor: pointer;
+
+	background-size: 300% 100%;
+
+	transition: all .25s ease-in-out,transform .25s ease-in-out;
+
+	moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+
+	@include breakpoint-down(medium) {
+		font-size: 17px;
+	}
+	@include breakpoint-down(small) {
+		padding: 10px 17px 10px 17px;
+	}
+	@include breakpoint-down(small) {
+		font-size: $font-s;
+	}
+
+  &:hover {
+    transform: scale(1.05);
+    background: $linearGradientHover;
+    background-position: 100% 0;
+  /* Duration of gradient transition */
+    moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+  }
+
+	&:focus { outline: none; }
+}
+
+
+.white__cta { background: $white; color: $darkBlue; }
+.white__cta:hover { background: $darkBlue; color: $white; }
+
+
