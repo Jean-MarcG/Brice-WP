@@ -1,3 +1,42 @@
+.form {
+  padding-block: 4rem 1rem;
+  &__subtitle {
+    font-family: $font-title;
+    font-size: $font-ml;
+  }
+  &__description {
+    padding: 1rem;
+    width: 60%;
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+  }
+  &__container {
+    padding-inline: 5%;
+    max-width: 80%;
+    margin: auto;
+    background: bisque;
+    padding: 2rem;
+    border-radius: 28px;
+  }
+  & div.wpforms-container-full {
+    margin: auto;
+  }
+  & .wpforms-container .wpforms-one-third.wpforms-first {
+    width: 100%;
+  }
+  & div.wpforms-container-full input[type=text] {
+    border-radius: 10px;
+  }
+  & div.wpforms-container-full button[type=submit]:not(:hover):not(:active) {
+    background-color: $brown-100;
+    padding: 1rem 1.5rem;
+    border-radius: 4rem;
+    color: $white;
+    font-weight: $medium;
+  }
+}
+
 .footer {
   position: relative;
   padding-block: 3rem 2rem;
@@ -38,7 +77,7 @@
     transition: color .3s;
       &:hover { color: $black; }
   }
-  &__socila {
+  &__social {
     display: flex;
     column-gap: 1.25rem;
   }
@@ -46,7 +85,8 @@
     color: $black;
     font-size: $font-sm;
     transition: color .3s, transform .3s;
-    &:hover { color: lightcoral; transform: translateY(-2px);}
+    &.facebook:hover { color: #3B5998; transform: translateY(-2px);}
+    &.instagram:hover { color: lightcoral; transform: translateY(-2px);}
   }
   &__info { 
     display: flex;

@@ -62,10 +62,10 @@
 
       <ul class="nav__social">
         <li>
-          <a href="#" target="_blank" class="footer__social-link">
+          <a href="https://www.facebook.com/BricePatisserieJerusalem?mibextid=LQQJ4d" target="_blank" class="nav__social-link facebook">
             <i class="ri-facebook-circle-fill"></i>
           </a>
-          <a href="#" target="_blank" class="footer__social-link">
+          <a href="https://www.instagram.com/bricepatisserie/" target="_blank" class="nav__social-link instagram">
             <i class="ri-instagram-fill"></i>
           </a>
         </li>

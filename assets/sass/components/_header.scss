@@ -17,7 +17,7 @@
   margin: auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
-
+  
   &__logo,
   &__toggle,
   &__close {
@@ -35,12 +35,22 @@
   }
   &__logo img { width: 60px; border-radius: 50px; }
   &__social {
-    min-width: 45px;
-    text-align: end;
+    display: flex;
+    column-gap: 1.25rem;
     margin-right: 1rem;
   }
+  &__social-link {
+    color: $black;
+    font-size: $font-sm;
+    transition: color .3s, transform .3s;
+    
+    &.facebook:hover { color: #3B5998; transform: translateY(-2px);}
+    
+    &.instagram:hover { color: lightcoral; transform: translateY(-2px);}
+  }
+  
   &__toggle { font-size: 1.25rem; cursor: pointer; }
-
+  
   &__menu {
     position: fixed;
     top: -100%;
@@ -51,8 +61,8 @@
     padding-block: 3.5rem;
     transition: top .4s;
   }
-
-/*   @include breakpoint-down(large) {
+  
+  /*   @include breakpoint-down(large) {
     &__menu {
       position: fixed;
       top: -100%;
@@ -64,7 +74,7 @@
       transition: top .4s;
     }
   } */
-
+  
   &__list {
     display: flex;
     flex-direction: column;
@@ -75,10 +85,10 @@
     color: $black;
     font-weight: $medium;
     transition: color .4s;
-
+    
     &:hover { color: $lightBlack;}
   }
-
+  
   &__close {
     position: absolute;
     top: 1rem;

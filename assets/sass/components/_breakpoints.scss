@@ -9,6 +9,7 @@
 
 /* Medium devices */
 @include breakpoint-up(medium) {
+
   .home__container,
   .coneShaped__container,
   .croquembouche__container,
@@ -27,6 +28,15 @@
 
 @include breakpoint-up(tablet) {
 
+  .coneShaped,
+  .croquembouche,
+  .customized,
+  .numberCake,
+  .israel,
+  .about {
+    &__img { width: 400px; }
+  }
+
   .footer__content {
     grid-template-columns: repeat(4, max-content);
   }
@@ -36,7 +46,7 @@
 @include breakpoint-up(large) {
 
   .section {
-    padding-block: 7rem 1.5rem;
+    padding-block: 6rem 1.5rem;
     &__subtitle { margin-bottom: .75rem; }
   }
   .home {

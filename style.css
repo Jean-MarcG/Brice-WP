@@ -430,6 +430,22 @@ button {
 .home {
   position: relative;
 }
+.home .cacherout__container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.home .cacherout__data {
+  margin-left: 1rem;
+}
+.home .cacherout__title {
+  font-family: "Cardo";
+  margin-top: 1rem;
+  font-size: 30px;
+}
 .home__container {
   row-gap: 3rem;
   padding-top: 2rem;
@@ -513,7 +529,7 @@ button {
 .customized__img,
 .israel__img,
 .about__img {
-  width: 300px;
+  width: 350px;
   justify-self: center;
 }
 
@@ -537,7 +553,7 @@ button {
   margin-bottom: 2rem;
 }
 .numberCake__img {
-  width: 300px;
+  width: 350px;
   justify-self: center;
   rotate: 10deg;
 }
@@ -551,31 +567,6 @@ button {
 .numberCake__description {
   margin-bottom: 2rem;
   color: #FFFFFF;
-}
-
-.form__container {
-  padding-inline: 5%;
-  max-width: 80%;
-  margin: auto;
-  background: bisque;
-  padding: 2rem;
-  border-radius: 28px;
-}
-.form div.wpforms-container-full {
-  margin: auto;
-}
-.form .wpforms-container .wpforms-one-third.wpforms-first {
-  width: 100%;
-}
-.form div.wpforms-container-full input[type=text] {
-  border-radius: 10px;
-}
-.form div.wpforms-container-full button[type=submit]:not(:hover):not(:active) {
-  background-color: #dda15e;
-  padding: 1rem 1.5rem;
-  border-radius: 4rem;
-  color: #FFFFFF;
-  font-weight: 500;
 }
 
 .gallery__title {
@@ -648,21 +639,6 @@ button {
   transform: translateX(0.25rem);
 }
 
-.form {
-  padding-block: 4rem 1rem;
-}
-.form__subtitle {
-  font-family: "Cardo";
-  font-size: 2.5rem;
-}
-.form__description {
-  padding: 1rem;
-  width: 60%;
-  margin: auto;
-  max-width: 800px;
-  text-align: center;
-}
-
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar {
   width: 0.6rem;
@@ -723,17 +699,17 @@ button {
   padding-top: 1rem;
   padding-bottom: 1rem;
   /*   @include breakpoint-down(large) {
-      &__menu {
-        position: fixed;
-        top: -100%;
-        left: 0;
-        background-color: $lightWhite;
-        width: 100%;
-        box-shadow: 0 8px 20px hsla(19, 64%, 24%, .1);
-        padding-block: 3.5rem;
-        transition: top .4s;
-      }
-    } */
+    &__menu {
+      position: fixed;
+      top: -100%;
+      left: 0;
+      background-color: $lightWhite;
+      width: 100%;
+      box-shadow: 0 8px 20px hsla(19, 64%, 24%, .1);
+      padding-block: 3.5rem;
+      transition: top .4s;
+    }
+  } */
 }
 .nav__logo, .nav__toggle, .nav__close {
   display: flex;
@@ -755,9 +731,22 @@ button {
   border-radius: 50px;
 }
 .nav__social {
-  min-width: 45px;
-  text-align: end;
+  display: flex;
+  column-gap: 1.25rem;
   margin-right: 1rem;
+}
+.nav__social-link {
+  color: #000000;
+  font-size: 1.25rem;
+  transition: color 0.3s, transform 0.3s;
+}
+.nav__social-link.facebook:hover {
+  color: #3B5998;
+  transform: translateY(-2px);
+}
+.nav__social-link.instagram:hover {
+  color: lightcoral;
+  transform: translateY(-2px);
 }
 .nav__toggle {
   font-size: 1.25rem;
@@ -803,6 +792,45 @@ button {
 /* Change background header */
 .bg-header {
   box-shadow: 0 2px 8px hsla(19, 64%, 24%, 0.1);
+}
+
+.form {
+  padding-block: 4rem 1rem;
+}
+.form__subtitle {
+  font-family: "Cardo";
+  font-size: 2.5rem;
+}
+.form__description {
+  padding: 1rem;
+  width: 60%;
+  margin: auto;
+  max-width: 800px;
+  text-align: center;
+}
+.form__container {
+  padding-inline: 5%;
+  max-width: 80%;
+  margin: auto;
+  background: bisque;
+  padding: 2rem;
+  border-radius: 28px;
+}
+.form div.wpforms-container-full {
+  margin: auto;
+}
+.form .wpforms-container .wpforms-one-third.wpforms-first {
+  width: 100%;
+}
+.form div.wpforms-container-full input[type=text] {
+  border-radius: 10px;
+}
+.form div.wpforms-container-full button[type=submit]:not(:hover):not(:active) {
+  background-color: #dda15e;
+  padding: 1rem 1.5rem;
+  border-radius: 4rem;
+  color: #FFFFFF;
+  font-weight: 500;
 }
 
 .footer {
@@ -854,7 +882,7 @@ button {
 .footer__link:hover {
   color: #000000;
 }
-.footer__socila {
+.footer__social {
   display: flex;
   column-gap: 1.25rem;
 }
@@ -863,7 +891,11 @@ button {
   font-size: 1.25rem;
   transition: color 0.3s, transform 0.3s;
 }
-.footer__social-link:hover {
+.footer__social-link.facebook:hover {
+  color: #3B5998;
+  transform: translateY(-2px);
+}
+.footer__social-link.instagram:hover {
   color: lightcoral;
   transform: translateY(-2px);
 }
@@ -916,6 +948,14 @@ button {
   }
 }
 @media (min-width: 767px) {
+  .coneShaped__img,
+  .croquembouche__img,
+  .customized__img,
+  .numberCake__img,
+  .israel__img,
+  .about__img {
+    width: 400px;
+  }
   .footer__content {
     grid-template-columns: repeat(4, max-content);
   }
@@ -923,7 +963,7 @@ button {
 /* Large devices */
 @media (min-width: 64em) {
   .section {
-    padding-block: 7rem 1.5rem;
+    padding-block: 6rem 1.5rem;
   }
   .section__subtitle {
     margin-bottom: 0.75rem;

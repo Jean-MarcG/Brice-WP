@@ -63,17 +63,11 @@ const sr = ScrollReveal({
 	// reset: true, // Animation repeat
 })
 
-sr.reveal('.home__img, .footer__logo, .footer__description, .footer__content, .footer__info')
+sr.reveal('.cacherout__container, .home__img, .footer__logo, .footer__description, .footer__content, .footer__info')
 sr.reveal('.home__data', {origin: 'bottom'})
 sr.reveal('.coneShaped__data, .croquembouche__data, .customized__data, .numberCake__data, .israel__data, .about__data', {origin: 'left'})
 sr.reveal('.coneShaped__img, .croquembouche__img, .customized__img, .numberCake__img, .israel__img, .about__img', {origin: 'right'})
 
-/*=============== LIGHTBOX INIT ===============*/
-const lb = lightbox.option({
-	'resizeDuration': 200,
-	'wrapAround': true,
-	'disableScrolling': true,
-})
 
 
 // Signature

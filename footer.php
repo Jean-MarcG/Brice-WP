@@ -66,8 +66,7 @@
         <ul class="footer__links">
           <li>
             <a href="" class="footer__information">
-              Gdoud haramishi 18<br>
-              Pisga zeev<br>
+              Pisgat zeev<br>
               Jerusalem
             </a>
           </li>
@@ -77,10 +76,10 @@
         <h3 class="footer__title">Nous suivre</h3>
         <ul class="footer__social">
           <li>
-            <a href="" target="_blank" class="footer__social-link">
+            <a href="https://www.facebook.com/BricePatisserieJerusalem?mibextid=LQQJ4d" target="_blank" class="footer__social-link facebook">
               <i class="ri-facebook-circle-fill"></i>
             </a>
-            <a href="" target="_blank" class="footer__social-link">
+            <a href="https://www.instagram.com/bricepatisserie/" target="_blank" class="footer__social-link instagram">
               <i class="ri-instagram-fill"></i>
             </a>
           </li>

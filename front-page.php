@@ -1,14 +1,22 @@
 <?php get_header() ?>
 
+
 <section class="home section" id="home">
+  <div class="cacherout__container container">
+
+    <img src="/wp-content/uploads/logo-cacherout-75x58-1.png" alt="">
+    <div class="cacherout__data">
+      <span class="section__title cacherout__title">Casher lamehadrin</span>
+    </div>
+  </div>
+
   <div class="home__container container grid">
     <img src="/wp-content/uploads/PHOTO-2023-06-28-11-03-39-1.jpg" alt="" class="home__img">
     <div class="home__data">
       <span class="section__subtitle">
         Notre savoir-faire
       </span>
-      <h1 class="home__title">Gateau de mariage et wedding cake</h1>
-
+      <h1 class="home__title">Gâteau de mariage et wedding cake</h1>
       <p class="home__description">
         Découvrez les délices uniques de Brice pour votre mariage !
         <br> Notre passion pour les wedding cakes vous garantit un gâteau exceptionnel et sur mesure.
@@ -16,7 +24,6 @@
         <br>Faites confiance à notre savoir-faire pour créer le gâteau de mariage parfait qui ravira vos invités.
         <br> Réservez dès maintenant !
       </p>
-
       <a href="/gateau-de-mariage-et-wedding-cake/" class="button">
         Découvrir <i class="ri-arrow-right-line"></i>
       </a>
@@ -34,9 +41,12 @@
         Pièces montées en cône sans nougatine
       </h2>
       <p class="coneShaped__description">
-        Possibilité de choux ou macarons, <strong>10 shekels/unité</strong>. Choux garnis d’une véritables crème onctueuse avec choix de différents gouts.
+        Possibilité de choux ou macarons, <strong>10 shekels/unité</strong>. Choux garnis d’une véritables crème onctueuse avec choix de différents goûts.
         <br>
         Commande minimum 30 personnes et supplément pour décor personnalisé.
+      </p>
+      <p class="coneShaped__description">
+        Conseil : 2 à 3 unités par personne
       </p>
       <a href="/pieces-montees-en-cone-sans-nougatine/" class="button">
         Découvrir <i class="ri-arrow-right-line"></i>
@@ -55,11 +65,13 @@
       <h2 class="section__title croquembouche__title">
         Croquembouche nougatine
       </h2>
-      <p class="coneShaped__description">
+      <p class="croquembouche__description">
         Possibilité de mélanger choux et macarons, <strong>20 shekels l’unité</strong> par personne.
         <br>Supplément pour décor personnalisé.
       </p>
-
+      <p class="croquembouche__description">
+        Conseil : 2 à 3 unités par personne
+      </p>
       <a href="/croquembouche-nougatine/" class="button">
         Découvrir <i class="ri-arrow-right-line"></i>
       </a>
@@ -85,7 +97,7 @@
         <br>
         Gâteau monté avec génoise moelleuse nature ou chocolat agrémenté de différents goûts de crèmes onctueuses et de coulis fruités.
       </p>
-      <a href="#" class="button">
+      <a href="/gateau-personnalise/" class="button">
         Découvrir <i class="ri-arrow-right-line"></i>
       </a>
     </div>
@@ -104,11 +116,11 @@
       <p class="numberCake__description">
         Quel est votre chiffre préféré!?
         <br>
-        Pâte sucrée nature ou chocolat surmontée d’une crème onctueuse : vaille, chocolat, citron, etc... à votre choix.
+        Pâte sucrée nature ou chocolat surmontée d’une crème onctueuse : vanille, chocolat, citron, etc... à votre choix.
         <br>
         Décor personnalisé sur-mesure à partir de <strong>20 shekels la part</strong>, commande de 15 personnes minimum.
       </p>
-      <a href="#" class="button">
+      <a href="/number-cake/" class="button">
         Découvrir <i class="ri-arrow-right-line"></i>
       </a>
     </div>
@@ -133,9 +145,6 @@
         Chaque création est confectionnée avec passion et des ingrédients locaux soigneusement sélectionnés. Faites de votre mariage un moment inoubliable en choisissant Brice Pâtisserie pour sublimer vos festivités avec nos délicieuses créations sucrées.
         <br>Découvrez la magie de nos desserts !
       </p>
-      <a href="#" class="button">
-        Découvrir <i class="ri-arrow-right-line"></i>
-      </a>
     </div>
     <img src="/wp-content/uploads/cake-israel-min.jpg" alt="" class="israel__img">
   </div>
@@ -161,9 +170,6 @@
         <br>
         En fin de compte, l'objectif de toute pièce montée croquembouche est l'émotion de marquer les esprits et d'apporter de la joie à tous ceux qui y goûteront. Grâce à notre expertise et notre passion.
       </p>
-      <a href="#" class="button">
-        Contactez-nous<i class="ri-arrow-right-line"></i>
-      </a>
     </div>
     <img src="/wp-content/uploads/about-brice-min.jpg" alt="" class="customized__img">
   </div>

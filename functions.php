@@ -10,12 +10,12 @@ function briceWP_register_assets() {
 
   
   wp_enqueue_script('scrollreveal-js');
-  wp_enqueue_script('lightbox2-js', get_template_directory_uri() . '/assets/lightbox2/lightbox.min.js', array('jquery'), '1.0', true);
+  wp_enqueue_script('lightbox2-js', get_template_directory_uri() . '/assets/lightbox2/js/lightbox.min.js', array('jquery'), '1.0', true);
   wp_enqueue_script('app', get_template_directory_uri() . '/assets/js/app.js', array('jquery'), '1.0', true);
   wp_enqueue_script('app', get_template_directory_uri() . '/assets/js/app.min.js', array('jquery'), '1.0', true);
 
   wp_enqueue_style('remixicon-css');
-  wp_enqueue_style( 'lightbox2', get_template_directory_uri() . '/assets/lightbox2/lightbox.min.css', array() );
+  wp_enqueue_style( 'lightbox2', get_template_directory_uri() . '/assets/lightbox2/css/lightbox.css', array() );
   wp_enqueue_style( 'briceWP_style', get_stylesheet_uri() );
 /*   wp_enqueue_style('style-briceWP', get_template_directory_uri() . '/style.min.css');
  */
